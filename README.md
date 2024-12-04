@@ -6,3 +6,7 @@ Why this title?
 
 "Quantum Horizons": Retains the connection to black hole event horizons and quantum-scale exploration.
 "Exploring the Edge of Infinity": Captures the boundary-layer phenomena at the extreme edges of galactic objects, blending with the concept of infinity.
+
+Tools used are:
+1. Qiskit for quantum circuit simulation and signal detection in quantum channels, 
+2. Documentation on Supermassive Black Holes, Magnetars, and Neutron Stars can inspire fascinating projects. Below, I'll expand on the ideas of this project in English, providing additional examples in Qiskit and HDL (Hardware Description Language).
