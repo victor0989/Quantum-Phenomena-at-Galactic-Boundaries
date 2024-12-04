@@ -24,6 +24,14 @@ Retains the connection to black hole event horizons and quantum-scale exploratio
 # Tools used are:
 1. Qiskit for quantum circuit simulation and signal detection in quantum channels, 
 2. Documentation on Supermassive Black Holes, Magnetars, and Neutron Stars can inspire fascinating projects. Below, I'll expand on the ideas of this project in English, providing additional examples in Qiskit and HDL (Hardware Description Language).
+3. C example GPIO:
+   HAL_GPIO_writePin(GPIOA, GPIO_PIN_5, 1);
+      HAL_Delay(1000);
+      HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, 0);
+      HAL_Delay(1000);
+
+STM32F103RBTx
+LQFP64
 
 # 3. Example:
 
