@@ -34,6 +34,7 @@ STM32F103RBTx
 LQFP64
 
 # 3. Example:
+[![Watch the video](https://img.youtube.com/vi/80HJZLVFKrI/maxresdefault.jpg)](https://youtu.be/80HJZLVFKrI)
 
 % Initialize COMSOL Model
 model = comsol.ModelUtil.create('Model');
