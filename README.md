@@ -1,4 +1,14 @@
 # Quantum Horizons: Modeling Extreme Galactic Phenomena in Computational Physics
+from qiskit_metal import designs, draw, MetalGUI
+
+# design
+design = designs.DesignPlanar()
+gui = MetalGUI(design)
+
+# resonator
+resonator = design.add_qcomponent('Resonator', options=dict(length='300um'))
+gui.show()
+
 ![Quantum Horizons Image](https://github.com/victor0989/Quantum-Phenomena-at-Galactic-Boundaries/blob/main/imagen/Hyper_Space/imagen.png)
 
 # 1. Meaning and content of the project
