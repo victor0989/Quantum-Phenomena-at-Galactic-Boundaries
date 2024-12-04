@@ -11,7 +11,7 @@ gui.show()
 
 ![Quantum Horizons Image](https://github.com/victor0989/Quantum-Phenomena-at-Galactic-Boundaries/blob/main/imagen/Hyper_Space/imagen.png)
 
-# 1. Meaning and content of the project
+# Meaning and content of the project
 
 # "The Edge of Infinity": 
 Evokes the idea of studying phenomena at the boundaries of extreme objects, such as event horizons or quantum edges in galactic systems.
