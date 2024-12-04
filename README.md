@@ -1,4 +1,5 @@
 # Quantum Horizons: Modeling Extreme Galactic Phenomena in Computational Physics
+![Quantum Horizons Image](https://github.com/victor0989/Quantum-Phenomena-at-Galactic-Boundaries/blob/main/imagen/Hyper_Space/imagen.png)
 
 # 1. Meaning and content of the project
 
