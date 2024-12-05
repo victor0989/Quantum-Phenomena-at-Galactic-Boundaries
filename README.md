@@ -41,7 +41,7 @@ The adjusted Qiskit Metal visualization will dynamically reflect gravitational w
 Pad dimensions can shift slightly to represent quantum system adjustments.
 
 6. Final Integration with Previous LIDAR Plan
-This expanded black hole signal detection aligns with the previously described LIDAR system:
+This expanded black hole signal detection aligns with the previously described LIDAR systems.
 
 # C/VHDL Sensors: Accelerometers detect physical disturbances caused by gravitational waves.
 
