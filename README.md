@@ -50,7 +50,7 @@ Actuators: Stepper motors adjust optical components for enhanced detection.
 LIDAR Design: Real-time adjustment of CPWs and photon paths simulates black hole signal detection.
 This approach combines astrophysical simulation with practical quantum and LIDAR technologies to develop a robust signal detection and processing system.
 
-# 3. Example:
+# 3. Example-COMSOL-simulation:
 [![Watch the video](https://img.youtube.com/vi/80HJZLVFKrI/maxresdefault.jpg)](https://youtu.be/80HJZLVFKrI)
 
 % Initialize COMSOL Model
@@ -84,13 +84,15 @@ study1 = model.study.create('std1');
 study1.feature.create('stat', 'Stationary');
 study1.run;
 
-
-![Laboratory Cryogenics](https://github.com/victor0989/Quantum-Phenomena-at-Galactic-Boundaries/blob/main/important!!/laboratory_cryogenics.png)
-
-
 % Plot the magnetic field results
 model.result.create('pg1', 'PlotGroup3D');
 model.result('pg1').create('surf1', 'Surface');
 model.result('pg1').feature('surf1').set('expr', 'mf.B');
 model.result('pg1').run;
+
+
+
+![Laboratory Cryogenics](https://github.com/victor0989/Quantum-Phenomena-at-Galactic-Boundaries/blob/main/important!!/laboratory_cryogenics.png)
+
+
 
