@@ -84,6 +84,10 @@ study1 = model.study.create('std1');
 study1.feature.create('stat', 'Stationary');
 study1.run;
 
+
+![Laboratory Cryogenics](https://github.com/victor0989/Quantum-Phenomena-at-Galactic-Boundaries/blob/main/important!!/laboratory_cryogenics.png)
+
+
 % Plot the magnetic field results
 model.result.create('pg1', 'PlotGroup3D');
 model.result('pg1').create('surf1', 'Surface');
