@@ -1,3 +1,4 @@
+![Black Hole Image](https://github.com/victor0989/Quantum-Phenomena-at-Galactic-Boundaries/blob/main/important!!/blackhole.jpg)
 # Quantum Horizons: Modeling Extreme Galactic Phenomena in Computational Physics
 from qiskit_metal import designs, draw, MetalGUI
 
