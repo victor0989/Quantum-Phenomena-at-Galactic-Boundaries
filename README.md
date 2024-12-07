@@ -22,6 +22,23 @@ Evokes the idea of studying phenomena at the boundaries of extreme objects, such
 Retains the connection to black hole event horizons and quantum-scale exploration.
 "Exploring the Edge of Infinity": Captures the boundary-layer phenomena at the extreme edges of galactic objects, blending with the concept of infinity.
 
+# Quantum Phenomena at Galactic Boundaries
+
+## Galactic Web Structure
+
+![Galaxies Structure](https://github.com/victor0989/Quantum-Phenomena-at-Galactic-Boundaries/blob/main/imagen/Hyper_Space/galaxies_structure.png?raw=true)
+
+The image above represents the intricate structure of galaxies connected in a cosmic web, which is a crucial visualization for understanding galactic phenomena and quantum mechanics at the edge of infinity.
+
+---
+
+## Watch the Related YouTube Short
+
+[![Watch on YouTube](https://img.youtube.com/vi/3iIJmbUBYUM/hqdefault.jpg)](https://www.youtube.com/shorts/3iIJmbUBYUM)
+
+Click on the thumbnail to watch the short video exploring this concept further on YouTube.
+
+
 # Tools used are:
 1. Qiskit for quantum circuit simulation and signal detection in quantum channels, 
 2. Documentation on Supermassive Black Holes, Magnetars, and Neutron Stars can inspire fascinating projects. Below, I'll expand on the ideas of this project in English, providing additional examples in Qiskit and HDL (Hardware Description Language).
