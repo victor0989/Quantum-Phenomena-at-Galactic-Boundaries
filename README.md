@@ -2,6 +2,8 @@
 # Quantum Horizons: Modeling Extreme Galactic Phenomena in Computational Physics
 from qiskit_metal import designs, draw, MetalGUI
 
+---
+
 # design
 design = designs.DesignPlanar()
 gui = MetalGUI(design)
@@ -11,6 +13,8 @@ resonator = design.add_qcomponent('Resonator', options=dict(length='300um'))
 gui.show()
 
 ![Quantum Horizons Image](https://github.com/victor0989/Quantum-Phenomena-at-Galactic-Boundaries/blob/main/imagen/Hyper_Space/imagen.png)
+
+---
 
 # Meaning and content of the project
 
@@ -38,6 +42,7 @@ The image above represents the intricate structure of galaxies connected in a co
 
 Click on the thumbnail to watch the short video exploring this concept further on YouTube.
 
+---
 
 # Tools used are:
 1. Qiskit for quantum circuit simulation and signal detection in quantum channels, 
@@ -59,6 +64,8 @@ Pad dimensions can shift slightly to represent quantum system adjustments.
 
 6. Final Integration with Previous LIDAR Plan
 This expanded black hole signal detection aligns with the previously described LIDAR systems.
+
+---
 
 # C/VHDL Sensors: Accelerometers detect physical disturbances caused by gravitational waves.
 
