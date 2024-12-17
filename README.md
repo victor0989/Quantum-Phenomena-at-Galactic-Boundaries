@@ -1,5 +1,7 @@
 ![Black Hole Image](https://github.com/victor0989/Quantum-Phenomena-at-Galactic-Boundaries/blob/main/important!!/blackhole.jpg)
 # Quantum Horizons: Modeling Extreme Galactic Phenomena in Computational Physics
+(Black_holes in higher dimensions across quantum holograms with the form of circuits new channels)
+Qiskit-metal
 from qiskit_metal import designs, draw, MetalGUI
 
 ---
