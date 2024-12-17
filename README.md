@@ -31,21 +31,24 @@ gui = MetalGUI(design)
 resonator = design.add_qcomponent('Resonator', options=dict(length='300um'))
 gui.show()
 
+---
+
 ## 🌠 **Galactic Web Structure**
-The following visualization represents the intricate structure of galaxies connected in a cosmic web. It helps understand **boundary-layer quantum mechanics** at the edge of infinity.
+The following visualization represents the intricate structure of galaxies connected in a cosmic web. This visualization aids in understanding **boundary-layer quantum mechanics** at the edge of infinity, where quantum fields interact across vast distances.
 
 ![Galactic Web](https://github.com/victor0989/Quantum-Phenomena-at-Galactic-Boundaries/blob/main/imagen/Hyper_Space/galaxies_structure.png?raw=true)
 
 ---
 
 ## 🎥 **Related YouTube Short**
+Watch the short video on YouTube for a brief overview of the project’s themes and simulations:
+
 [![Watch on YouTube](https://img.youtube.com/vi/3iIJmbUBYUM/hqdefault.jpg)](https://www.youtube.com/shorts/3iIJmbUBYUM)
 
 ---
 
 ## 🧪 **COMSOL Simulation Example**
-
-Here is an example of a **3D magnetic field simulation** using COMSOL:
+Here is an example of a **3D magnetic field simulation** using COMSOL, demonstrating how we model magnetic phenomena in high-dimensional spaces.
 
 ```matlab
 % Initialize COMSOL Model
@@ -85,47 +88,4 @@ model.result('pg1').create('surf1', 'Surface');
 model.result('pg1').feature('surf1').set('expr', 'mf.B');
 model.result('pg1').run;
 
----
-
-## **🔍 Quantum Signal Detection and LIDAR Integration**
-Quantum Algorithms
-
-Shor’s algorithm models signal interference.
-
-Accelerometers: Detect physical disturbances caused by gravitational waves.
-LIDAR systems: Simulate black hole signal detection.
-Actuators:Stepper motors adjust optical components dynamically.
-
-## **🛠️ STM32 Microcontroller Example (C Code)**
-Example GPIO code for stepper motor or signal control:
-
-HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, 1);
-HAL_Delay(1000);
-HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, 0);
-HAL_Delay(1000);
-
-Microcontroller: STM32F103RBTx
-Package: LQFP64
-
----
-
-## **🌀 Final Integration**
-This project aligns quantum signal detection with the previously described LIDAR systems, integrating real-world astrophysical simulations with quantum technologies.
-
-## **📊 Gallery**
-Black holes in higher dimensions across quantum holograms with circuits and new Hamiltonian channels.
-🌌 Project Meaning: "The Edge of Infinity"
-Quantum Horizons: Retains the connection to black hole event horizons and quantum-scale exploration.
-Focus: Explore boundary-layer quantum effects at galactic edges.
-Tools: MATLAB, COMSOL, Qiskit, and advanced quantum circuits.
-
-# Explore More
-YouTube Video on Quantum Horizons
-GitHub Repository
-
-## **📜 Future Scope**
-Enhanced gravitational wave simulations.
-Quantum LIDAR for aerospace applications.
-Real-time quantum signal processing.
-"Exploring the edge of infinity, one quantum circuit at a time." 🚀
 
