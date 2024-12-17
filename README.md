@@ -2,9 +2,9 @@
 # Quantum Horizons: Modeling Extreme Galactic Phenomena in Computational Physics
 (Black Holes in higher dimensions across quantum holograms with the form of circuits and new quantum hamiltonian channels) 
 
-# Tools used to work with algorithms and circuits in cryogenics conditions before dark matter or signal detection with quantum research:
+# Programming tools used to work with algorithms and circuits in cryogenics conditions/ dark matter or signal detection/ & quantum research:
 
-Example: Qiskit-metal from qiskit metal import designs, draw, MetalGUI
+Examples that you can find in this repository: Qiskit-metal from qiskit metal import designs, draw, MetalGUI
 
 Scipy,
 VHDL,
