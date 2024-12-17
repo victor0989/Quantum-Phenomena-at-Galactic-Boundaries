@@ -2,11 +2,15 @@
 # Quantum Horizons: Modeling Extreme Galactic Phenomena in Computational Physics
 (Black Holes in higher dimensions across quantum holograms with the form of circuits and new quantum hamiltonian channels) 
 
+---
+
 # Tools used to work with algorithms and circuits in cryogenics conditioins before dark matter or signal detection with quantum research:
-Qiskit-metal from qiskit metal import designs, draw, MetalGUI
-Scipy
-VHDL
-HDL matlab
+
+Example: Qiskit-metal from qiskit metal import designs, draw, MetalGUI
+
+Scipy,
+VHDL,
+HDL matlab,
 Quantum algorithms(yes, is a tool)
 
 ---
@@ -14,6 +18,8 @@ Quantum algorithms(yes, is a tool)
 # design
 design = designs.DesignPlanar()
 gui = MetalGUI(design)
+
+---
 
 # resonator
 resonator = design.add_qcomponent('Resonator', options=dict(length='300um'))
@@ -32,6 +38,8 @@ Evokes the idea of studying phenomena at the boundaries of extreme objects, such
 # "Quantum Horizons": 
 Retains the connection to black hole event horizons and quantum-scale exploration.
 "Exploring the Edge of Infinity": Captures the boundary-layer phenomena at the extreme edges of galactic objects, blending with the concept of infinity.
+
+---
 
 # Quantum Phenomena at Galactic Boundaries
 
@@ -52,7 +60,7 @@ Click on the thumbnail to watch the short video exploring this concept further o
 ---
 
 # Tools used are:
-1. Qiskit for quantum circuit simulation and signal detection in quantum channels, 
+1. Qiskit for quantum circuit simulation and signal detection in quantum channels
 2. Documentation on Supermassive Black Holes, Magnetars, and Neutron Stars can inspire fascinating projects. Below, I'll expand on the ideas of this project in English, providing additional examples in Qiskit and HDL (Hardware Description Language).
 3. C example GPIO:
    HAL_GPIO_writePin(GPIOA, GPIO_PIN_5, 1);
@@ -62,6 +70,8 @@ Click on the thumbnail to watch the short video exploring this concept further o
 
 STM32F103RBTx
 LQFP64
+
+---
 
 4. Visual Integration in Qiskit Metal
 The adjusted Qiskit Metal visualization will dynamically reflect gravitational wave disturbances:
@@ -81,8 +91,12 @@ Actuators: Stepper motors adjust optical components for enhanced detection.
 LIDAR Design: Real-time adjustment of CPWs and photon paths simulates black hole signal detection.
 This approach combines astrophysical simulation with practical quantum and LIDAR technologies to develop a robust signal detection and processing system.
 
+---
+
 # 3. Example-COMSOL-simulation:
 [![Watch the video](https://img.youtube.com/vi/80HJZLVFKrI/maxresdefault.jpg)](https://youtu.be/80HJZLVFKrI)
+
+---
 
 % Initialize COMSOL Model
 model = comsol.ModelUtil.create('Model');
@@ -121,7 +135,11 @@ model.result('pg1').create('surf1', 'Surface');
 model.result('pg1').feature('surf1').set('expr', 'mf.B');
 model.result('pg1').run;
 
+---
+
 ![Black_holes in higher dimensions across quantum holograms with the form of circuits new channels](https://github.com/victor0989/Quantum-Phenomena-at-Galactic-Boundaries/blob/main/Black_holes/OIP.jpg)
+
+---
 
 ![Laboratory Cryogenics](https://github.com/victor0989/Quantum-Phenomena-at-Galactic-Boundaries/blob/main/important!!/laboratory_cryogenics.png)
 
