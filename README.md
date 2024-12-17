@@ -1,5 +1,3 @@
-![Black Hole Image](https://github.com/victor0989/Quantum-Phenomena-at-Galactic-Boundaries/blob/main/important!!/blackhole.jpg)
-
 # 🌌 Quantum Horizons: Modeling Extreme Galactic Phenomena in Computational Physics
 ### *Black holes in higher dimensions across quantum holograms with circuits and new quantum Hamiltonian channels.*
 
