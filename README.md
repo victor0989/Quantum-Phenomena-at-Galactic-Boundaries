@@ -87,7 +87,7 @@ model.result('pg1').run;
 
 ---
 
-🔍 Quantum Signal Detection and LIDAR Integration
+## **🔍 Quantum Signal Detection and LIDAR Integration**
 Quantum Algorithms
 
 Shor’s algorithm models signal interference.
@@ -96,7 +96,7 @@ Accelerometers: Detect physical disturbances caused by gravitational waves.
 LIDAR systems: Simulate black hole signal detection.
 Actuators:Stepper motors adjust optical components dynamically.
 
-🛠️ STM32 Microcontroller Example (C Code)
+## **🛠️ STM32 Microcontroller Example (C Code)**
 Example GPIO code for stepper motor or signal control:
 
 HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, 1);
@@ -109,21 +109,21 @@ Package: LQFP64
 
 ---
 
-🌀 Final Integration
+## **🌀 Final Integration**
 This project aligns quantum signal detection with the previously described LIDAR systems, integrating real-world astrophysical simulations with quantum technologies.
 
-📊 Gallery
+## **📊 Gallery**
 Black holes in higher dimensions across quantum holograms with circuits and new Hamiltonian channels.
 🌌 Project Meaning: "The Edge of Infinity"
 Quantum Horizons: Retains the connection to black hole event horizons and quantum-scale exploration.
 Focus: Explore boundary-layer quantum effects at galactic edges.
 Tools: MATLAB, COMSOL, Qiskit, and advanced quantum circuits.
 
-Explore More
+# Explore More
 YouTube Video on Quantum Horizons
 GitHub Repository
 
-📜 Future Scope
+## **📜 Future Scope**
 Enhanced gravitational wave simulations.
 Quantum LIDAR for aerospace applications.
 Real-time quantum signal processing.
