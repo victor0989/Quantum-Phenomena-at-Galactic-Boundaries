@@ -1,54 +1,51 @@
-![Black Hole Image](https://github.com/victor0989/Quantum-Phenomena-at-Galactic-Boundaries/blob/main/important!!/blackhole.jpg)
+# Quantum Horizons: Modeling Extreme Galactic Phenomena in Computational Physics
+**(Black Holes in higher dimensions across quantum holograms with the form of circuits and new quantum Hamiltonian channels)**
 
-# 🌌 Quantum Horizons: Modeling Extreme Galactic Phenomena in Computational Physics
-### *Black holes in higher dimensions across quantum holograms with circuits and new quantum Hamiltonian channels.*
+## Programming Tools Used
 
----
+This repository contains various tools and examples that help to model and simulate extreme galactic phenomena in the context of quantum physics. Below are the key tools used:
 
-## 🚀 **Project Overview**
-This repository explores quantum and astrophysical simulations at the boundaries of extreme phenomena like **black holes, neutron stars, and magnetars**. Using computational physics tools such as **Qiskit**, **COMSOL**, and **MATLAB**, the project integrates quantum algorithms, signal detection techniques, and hardware simulations.
-
----
-
-## 📋 **Tools and Technologies**
-1. **Qiskit-Metal**: Design and simulate quantum circuits and resonators.
-2. **MATLAB/COMSOL**: Model magnetic fields and quantum systems.
-3. **HDL/VHDL**: Hardware description for FPGA-based simulations.
-4. **Quantum Algorithms**: Simulations for signal interference and detection.
-5. **STM32 Microcontrollers**: Real-world sensor integration (C examples provided).
+- **Qiskit**: Quantum circuit simulation and signal detection in quantum channels.
+- **Scipy**: Scientific computing in Python.
+- **VHDL/HDL**: Hardware Description Language for circuit design.
+- **Quantum Algorithms**: Algorithms for simulating quantum systems (including tools for Shor's Algorithm and signal interference modeling).
 
 ---
 
-## ⚙️ **Quantum Circuit Simulation Example (Qiskit-Metal)**
+### Example Code: Qiskit Metal for Quantum Design
+This code demonstrates the creation of a resonator in Qiskit Metal, a framework for quantum circuit design.
 
-### **1. Design Initialization**
 ```python
-from qiskit_metal import designs, MetalGUI
+from qiskit_metal import designs, draw, MetalGUI
 
+# Create a design plan
 design = designs.DesignPlanar()
 gui = MetalGUI(design)
 
+# Add a resonator to the design
 resonator = design.add_qcomponent('Resonator', options=dict(length='300um'))
 gui.show()
 
+# Quantum Phenomena at Galactic Boundaries
+
+## Galactic Web Structure
+
+![Galaxies Structure](https://github.com/victor0989/Quantum-Phenomena-at-Galactic-Boundaries/blob/main/imagen/Hyper_Space/galaxies_structure.png?raw=true)
+
+The image above represents the intricate structure of galaxies connected in a cosmic web, which is a crucial visualization for understanding galactic phenomena and quantum mechanics at the edge of infinity.
+
 ---
 
-## 🌠 **Galactic Web Structure**
-The following visualization represents the intricate structure of galaxies connected in a cosmic web. This visualization aids in understanding **boundary-layer quantum mechanics** at the edge of infinity, where quantum fields interact across vast distances.
-
-![Galactic Web](https://github.com/victor0989/Quantum-Phenomena-at-Galactic-Boundaries/blob/main/imagen/Hyper_Space/galaxies_structure.png?raw=true)
-
----
-
-## 🎥 **Related YouTube Short**
-Watch the short video on YouTube for a brief overview of the project’s themes and simulations:
-
+## 🎥 Watch the Related YouTube Short
 [![Watch on YouTube](https://img.youtube.com/vi/3iIJmbUBYUM/hqdefault.jpg)](https://www.youtube.com/shorts/3iIJmbUBYUM)
 
+Click on the thumbnail to watch the short video exploring this concept further on YouTube.
+
 ---
 
-## 🧪 **COMSOL Simulation Example**
-Here is an example of a **3D magnetic field simulation** using COMSOL, demonstrating how we model magnetic phenomena in high-dimensional spaces.
+# 🧪 Example-COMSOL-simulation:
+[![Watch the video](https://img.youtube.com/vi/80HJZLVFKrI/maxresdefault.jpg)](https://youtu.be/80HJZLVFKrI)
+Here is an example of a **3D magnetic field simulation** using COMSOL:
 
 ```matlab
 % Initialize COMSOL Model
@@ -87,5 +84,12 @@ model.result.create('pg1', 'PlotGroup3D');
 model.result('pg1').create('surf1', 'Surface');
 model.result('pg1').feature('surf1').set('expr', 'mf.B');
 model.result('pg1').run;
+
+Output:
+3D visualization of magnetic fields applied to a sphere.
+
+![Black_holes in higher dimensions across quantum holograms with the form of circuits new channels](https://github.com/victor0989/Quantum-Phenomena-at-Galactic-Boundaries/blob/main/Black_holes/OIP.jpg)
+
+
 
 
