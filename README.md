@@ -114,7 +114,7 @@ model.result('pg1').create('surf1', 'Surface');
 model.result('pg1').feature('surf1').set('expr', 'mf.B');
 model.result('pg1').run;
 
-
+![Black_holes in higher dimensions across quantum holograms with the form of circuits new channels](https://github.com/victor0989/Quantum-Phenomena-at-Galactic-Boundaries/blob/main/Black_holes/OIP.jpg)
 
 ![Laboratory Cryogenics](https://github.com/victor0989/Quantum-Phenomena-at-Galactic-Boundaries/blob/main/important!!/laboratory_cryogenics.png)
 
