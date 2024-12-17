@@ -1,8 +1,13 @@
 ![Black Hole Image](https://github.com/victor0989/Quantum-Phenomena-at-Galactic-Boundaries/blob/main/important!!/blackhole.jpg)
 # Quantum Horizons: Modeling Extreme Galactic Phenomena in Computational Physics
-(Black_holes in higher dimensions across quantum holograms with the form of circuits new channels)
-Qiskit-metal
-from qiskit_metal import designs, draw, MetalGUI
+(Black Holes in higher dimensions across quantum holograms with the form of circuits and new quantum hamiltonian channels) 
+
+# Tools used to work with algorithms and circuits in cryogenics conditioins before dark matter or signal detection with quantum research:
+Qiskit-metal from qiskit metal import designs, draw, MetalGUI
+Scipy
+VHDL
+HDL matlab
+Quantum algorithms(yes, is a tool)
 
 ---
 
