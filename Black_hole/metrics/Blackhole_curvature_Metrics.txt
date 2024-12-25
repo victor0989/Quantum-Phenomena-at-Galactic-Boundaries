@@ -1,0 +1,63 @@
+# Key Equations: Static Metric of 2D Black Hole
+# English Version
+
+## Static Metric of 2D Black Hole:
+# Formula:
+f = 1 - (m / (gamma * exp(-2 * gamma * r)))
+
+## Metric Value:
+# Formula:
+ds2 = -f * dt^2 + f^(-1)
+
+## Boundary Values:
+# Beta value:
+beta = 4 * gamma^2 / A
+
+# R_A value:
+R_A = 12 * gamma * log(beta)
+
+## Subcritical Regime:
+# Equations:
+C^2 = A - R
+epsilon = exp(-sigma_0)
+sigma_0 * a_B = -(1 / (4 * gamma * a_B * R))
+
+## Supercritical Regime:
+# Equation:
+X = X' + epsilon^2
+
+# Example in MATLAB:
+
+% Define parameters
+m = 1; % Mass
+r = 2; % Radius
+gamma = 0.5; % Parameter for gamma
+A = 10; % Constant
+R = 8; % Radius term
+
+% Static metric of 2D black hole
+f = 1 - (m / (gamma * exp(-2 * gamma * r)));
+
+% Metric value
+ds2 = -f * (dt^2) + f^(-1);
+
+% Boundary values
+beta = 4 * gamma^2 / A;
+R_A = 12 * gamma * log(beta);
+
+% Subcritical regime
+C_squared = A - R;
+epsilon = exp(-1); % Assuming sigma_0 = 1
+sigma_0_a_B = -(1 / (4 * gamma * R));
+
+% Supercritical regime
+X_prime = 1; % Assume X' = 1
+epsilon_squared = epsilon^2;
+X = X_prime + epsilon_squared;
+
+% Output results
+disp(['Static metric (f): ', num2str(f)]);
+disp(['Boundary beta: ', num2str(beta)]);
+disp(['Boundary R_A: ', num2str(R_A)]);
+disp(['C^2: ', num2str(C_squared)]);
+disp(['Supercritical X: ', num2str(X)]);
