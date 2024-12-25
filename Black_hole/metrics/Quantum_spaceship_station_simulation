@@ -1,0 +1,72 @@
+%% Quantum Black Hole Curvature and Spacecraft Simulation
+% Simulation of a simplified quantum object interacting with black hole curvatures
+% and quantum navigation channels for a space station or spacecraft.
+
+%% Define Constants and Parameters
+% Gravitational constants and black hole curvature parameters
+gamma = 0.5; % Curvature parameter
+g = 9.8; % Gravitational acceleration constant (m/s^2)
+m = 10; % Mass parameter of the black hole
+r = linspace(1, 100, 1000); % Radial distance (m)
+
+% Quantum parameters
+hbar = 1.0545718e-34; % Reduced Planck's constant (J*s)
+q_energy = linspace(1e-20, 1e-18, 1000); % Quantum energy levels (J)
+epsilon = exp(-gamma * r); % Quantum decay parameter
+sigma_0 = 0.1; % Quantum state parameter
+
+%% Black Hole Metric
+% Static 2D black hole metric
+f = 1 - (m ./ gamma) .* exp(-2 * gamma .* r);
+metric_ds2 = -f + (1 ./ f);
+
+%% Boundary Values
+% Calculate boundary values for subcritical and supercritical regimes
+A = 5; % Black hole constant
+beta = 4 * gamma^2 / A; % Boundary parameter
+R_A = 12 * gamma * log(beta); % Curvature boundary
+
+% Subcritical regime
+C2_sub = A - R_A;
+quantum_decay = exp(-sigma_0);
+sigma_0_aB = -(1/4) * gamma * A * R_A;
+
+% Supercritical regime
+X_prime = gamma + epsilon.^2;
+
+%% Quantum Object Model
+% Simulate a quantum object as a particle interacting with black hole curvatures
+q_position = linspace(-pi/2, pi/2, 1000); % Position in quantum channel
+q_momentum = gamma .* sin(q_position); % Quantum momentum
+
+%% Plot Results
+% Plot the black hole metric and quantum energy levels
+figure;
+subplot(2,1,1);
+plot(r, f, 'r', 'LineWidth', 1.5);
+hold on;
+plot(r, metric_ds2, 'b--', 'LineWidth', 1.5);
+title('Black Hole Metric and Curvature');
+xlabel('Radial Distance (r)');
+ylabel('Metric f and ds^2');
+legend('f(r)', 'ds^2', 'Location', 'Best');
+grid on;
+
+subplot(2,1,2);
+plot(q_position, q_momentum, 'g', 'LineWidth', 1.5);
+title('Quantum Channel Simulation');
+xlabel('Quantum Position (q)');
+ylabel('Quantum Momentum (p)');
+grid on;
+
+%% Summary Output
+fprintf('Simulation Results:\n');
+fprintf('Boundary Value Beta: %.4f\n', beta);
+fprintf('Curvature Boundary R_A: %.4f\n', R_A);
+fprintf('Subcritical Regime C^2: %.4f\n', C2_sub);
+fprintf('Quantum Decay Epsilon: %.4f\n', quantum_decay);
+
+%% Notes
+% This simulation provides a simplified framework for studying quantum behavior
+% in black hole curvatures. Advanced models could incorporate quantum entanglement,
+% quantum state transitions, and more sophisticated space navigation dynamics.
