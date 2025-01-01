@@ -1,4 +1,4 @@
-# 🌌 Quantum Horizons: Modeling Extreme Galactic Phenomena in Computational Physics
+# 🌌 Quantum Horizons: Modeling Extreme Galactic Phenomena in Computational Physics (non-production) Modeling-simulations HDL,matlab,etc
 ### *Black holes in higher dimensions across quantum holograms with circuits and new quantum Hamiltonian channels.*
 
 ---
